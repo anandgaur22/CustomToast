@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/custom_toast_container"
+    android:layout_width="match_parent"
+    android:layout_height="55dp"
+    app:cardBackgroundColor="#1d2dc76d"
+    android:elevation="5dp"
+    app:cardCornerRadius="5dp"
+    android:background="#ddf1ecec">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginStart="10dp"
+            android:src="@drawable/tick"
+            android:layout_marginLeft="10dp" />
+
+        <TextView
+            android:id="@+id/text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="13dp"
+            android:textColor="#2DC76D"
+           android:padding="10dp"
+            android:textStyle="bold"
+            android:text="Your activity has been hosted successfully" />
+
+    </LinearLayout>
+
+
+
+
+
+</android.support.v7.widget.CardView>
